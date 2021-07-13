@@ -1,0 +1,127 @@
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fffade;
+	margin-top: 15px;
+}
+
+
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fffade;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fffade;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fffade;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fffade;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fffade;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #262626;
+}
+.w-100 {
+	height: 100vh;
+}
+#q5-img
+{
+	position: absolute;
+	bottom: 0px;
+	right: 21vw;
+	top: 40vh;
+}
+.first-slide{
+	background-color: #f3c40d;
+}
+
+.second-slide{
+	background-color: #fb613f;
+}
+
+.third-slide{
+	background-color: #5115a8;
+}
+
+.fourth-slide{
+	background-color: #f3c40d;
+}
+
+.fifth-slide{
+	background-color: #fb613f;
+}
+
+.sixth-slide{
+	background-color: #5115a8;
+}
+
+.seventh-slide{
+	background-color: #f3c40d;
+}
+
+.eighth-slide{
+	background-color: #fb613f;
+}
+
+.ninth-slide{
+	background-color: #5115a8;
+}
+
+.tenth-slide{
+	background-color: #fb613f;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
